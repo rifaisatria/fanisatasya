@@ -6,22 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
     <!-- link css -->
     <link rel="stylesheet" href="style.css" />
 
-    <!-- link icon bootstrap -->
+    <!-- link icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
 
-    <!-- link icon web -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Fanisa Tasya Website</title>
+    <!-- link icon web -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" style="border-radius: 50%" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" style="border-radius: 50%" />
   </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #3261e0">
+  <body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #3261e0">
       <div class="container">
         <a class="navbar-brand" href="#home">
           <img src="img/ft 2 white-trans.png" alt="" width="35" height="40" class="d-inline-block" />
@@ -33,41 +32,38 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Tentang</a>
+              <a class="nav-link" href="#about">Tentang</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mini Galeri</a>
+              <a class="nav-link" href="#mini">Mini Galeri</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kontak</a>
+              <a class="nav-link" href="#kontak">Kontak</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- akhir navbar -->
 
     <!-- jumbotron -->
     <div class="jumbotron text-center">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-3 text-center">
-            <img src="img/Screenshot_20210306-180014_2.jpg" alt="fanisatasya" style="width: 200px" class="rounded-circle img-thumbnail" />
-          </div>
-          <div class="col-md-3 text-center" style="color: rgb(37, 37, 138)">
-            <h1 class="pt-5">Fanisa Tasya</h1>
-            <p class="text-center" style="font-size: 20px">Pelajar | Mahasiswa</p>
-          </div>
+      <div class="row justify-content-center">
+        <div class="col-md-3 text-center">
+          <img src="img/Screenshot_20210306-180014_2.jpg" alt="fanisatasya" width="200px" class="rounded-circle img-thumbnail" />
+        </div>
+        <div class="col-md-3 text-center" style="color: rgb(37, 37, 138)">
+          <h1 class="pt-5">Fanisa Tasya</h1>
+          <p class="text-center" style="font-size: 20px">Pelajar | Mahasiswa</p>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="1"
-          d="M0,64L40,74.7C80,85,160,107,240,144C320,181,400,235,480,266.7C560,299,640,309,720,266.7C800,224,880,128,960,80C1040,32,1120,32,1200,53.3C1280,75,1360,117,1400,138.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,149.3C1120,117,1280,107,1360,101.3L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
         ></path>
       </svg>
     </div>
@@ -76,10 +72,8 @@
     <!-- about -->
     <section id="about">
       <div class="container">
-        <div class="row justify-content-center text-center" style="color: rgb(37, 37, 138)">
-          <div class="col-md">
-            <h2>Tentang Saya</h2>
-          </div>
+        <div class="row text-center mb-3" style="color: rgb(37, 37, 138)">
+          <h2>Tentang Saya</h2>
         </div>
         <div class="row justify-content-center text-center" style="color: rgb(37, 37, 138)">
           <div class="col-md-4">
@@ -94,7 +88,7 @@
         <path
           fill="#e2edff"
           fill-opacity="1"
-          d="M0,0L40,10.7C80,21,160,43,240,58.7C320,75,400,85,480,122.7C560,160,640,224,720,240C800,256,880,224,960,208C1040,192,1120,192,1200,170.7C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+          d="M0,32L48,37.3C96,43,192,53,288,96C384,139,480,213,576,234.7C672,256,768,224,864,208C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -199,7 +193,8 @@
     <footer style="background-color: #3261e0" class="text-white text-center pb-3">
       <p>Dibuat dengan <i class="bi bi-heart-fill text-danger"></i> oleh <a href="https://instagram.com/rfst.x/" class="text-white fw-bold">Rifai Satria</a></p>
     </footer>
+    <!-- akhir footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
